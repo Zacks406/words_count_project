@@ -1,0 +1,67 @@
+{
+ "cells": [
+  {
+   "cell_type": "code",
+   "execution_count": 3,
+   "id": "983ec6b5-7bba-4972-9cf2-055286189725",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "import pandas as pd"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 4,
+   "id": "5cdc2d44-b5a7-4c95-b0fa-be41fc48b6e6",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "0    10\n",
+      "1    20\n",
+      "2    30\n",
+      "3    40\n",
+      "4    50\n",
+      "dtype: int64\n"
+     ]
+    }
+   ],
+   "source": [
+    "s = pd.Series([10,20,30,40,50])\n",
+    "print(s)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "0f6b6c15-deb0-4748-a308-2843a54f3a2f",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "python (ai_env)",
+   "language": "python",
+   "name": "ai_env"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.12.13"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}
